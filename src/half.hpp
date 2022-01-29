@@ -1,5 +1,5 @@
-#ifndef HALF_ADDER
-#define HALF_ADDER
+#ifndef HALF_ADDER_HPP
+#define HALF_ADDER_HPP
 
 #include "bit.hpp"
 

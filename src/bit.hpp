@@ -1,5 +1,5 @@
-#ifndef BIT
-#define BIT
+#ifndef BIT_HPP
+#define BIT_HPP
 
 struct Bit {
     int bit;
