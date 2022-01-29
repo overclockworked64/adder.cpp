@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ripple.cpp"
+#include "ripple.hpp"
 
 int main() {
     RippleCarryAdder adder;
