@@ -10,7 +10,7 @@ private:
 public:
     RippleCarryAdder() {}
     void add(int a, int b);
-    int get_result();
+    int get_result() const;
 };
 
 #endif

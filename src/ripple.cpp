@@ -19,7 +19,7 @@ void RippleCarryAdder::add(int a, int b) {
     }
 }
 
-int RippleCarryAdder::get_result() {
+int RippleCarryAdder::get_result() const {
     int result = 0;
     for (int i = this->adders.size() - 1; i >= 0; i--) {
         result <<= 1;
