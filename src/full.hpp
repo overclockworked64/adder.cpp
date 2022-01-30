@@ -12,8 +12,6 @@ private:
     HalfAdder halfadder1;
     HalfAdder halfadder2;
 public:
-    FullAdder() {}
-
     void add(Bit a, Bit b);
 
     Bit get_sum() const {

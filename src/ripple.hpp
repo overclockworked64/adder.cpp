@@ -8,7 +8,6 @@ class RippleCarryAdder {
 private:
     std::array<FullAdder, 8> adders;
 public:
-    RippleCarryAdder() {}
     void add(int a, int b);
     int get_result() const;
 };

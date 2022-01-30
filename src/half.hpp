@@ -8,7 +8,6 @@ private:
     Bit sum {0};
     Bit carry_out {0};    
 public:
-    HalfAdder() {}
     Bit get_sum() const { return this->sum; }
     Bit get_carry_out() const { return this->carry_out; }
     void add(Bit a, Bit b);
