@@ -3,6 +3,7 @@
 
 struct Bit {
     int bit;
+
     Bit operator&(Bit other) const {
         return Bit { this->bit & other.bit };
     }
